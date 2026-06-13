@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "goldenconst"
+version = "0.1.0"
+description = "Golden Universe constants — the unified system connecting φ, πᵴ, c, the Great Pyramid, and the Plejaren coefficient 152955347"
+readme = "README.md"
+authors = [
+    { name = "Kali", email = "kali@thealpha-secret.xyz" },
+]
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+requires-python = ">=3.8"
+keywords = ["golden-ratio", "phi", "golden-pi", "great-pyramid", "billy-meier", "plejaren"]
+
+[project.urls]
+Homepage = "https://github.com/onyxgod777/goldenconst"
+BugTracker = "https://github.com/onyxgod777/goldenconst/issues"
+
+[tool.setuptools.packages.find]
+include = ["goldenconst*"]
